@@ -1,3 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-	console.log("hello world")
+	const body = document.body
+	body.insertAdjacentHTML('beforebegin', 'Hello World')
 })
